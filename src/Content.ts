@@ -108,6 +108,7 @@ export default class Content {
         } catch (error) {
             res.write("Hiba: " + (error as Error).message + "\n");
         }
+        res.write("Hi:3");
         // <---- Fejezd be a kódolást
 
         res.write("</pre></form>");
